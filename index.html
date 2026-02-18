@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+    <input type="number" id="num1"> <br>
+    <input type="number" id="num2"> <br>
+    <select id="operation">
+        <option value
+    </select>
+    
+	<script>
+        function calculate{
+        let num1 = Number(document.getElementById("num1").value);
+		let num2 = Number(document.getElementById("num2").value);
+		let operation = document.getElementById("operation").value;
+
+		let result;
+
+		if (operation=== "add"){
+			result = num1 +num2;
+		}
+		else if (operation=== "sub"){
+			result = num1 -num2;
+		}
+		else if (operation=== "mult"){
+			result = num1 *num2;
+		}
+		else if (operation=== "div"){
+			if (num2 === 0){
+				alert("Cannot Divided by zero.");
+			}
+			result = num1 /num2;
+		}
+    }
+    function show(){
+        document.getElementById()
+
+    }
+	</script>
+
+</body>
+</html>
